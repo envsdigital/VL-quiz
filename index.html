@@ -759,7 +759,11 @@
 		href="./wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsistemavideolucrativo.com%2Ftest%2F" />
 	<link rel="alternate" type="text/xml+oembed"
 		href="./wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsistemavideolucrativo.com%2Ftest%2F&#038;format=xml" />
-	<meta name="facebook-domain-verification" content="3rgux3npi8svab6vfvfvgmgz8wgfgz5oe3n1cgs" />
+	<!-- =========================== verificação de dominio face ===================================================== -->
+
+	<meta name="facebook-domain-verification" content="cr0oxr8ewk32ni5cq9dxqrhle2gxzz" />
+
+	<!-- =========================== fim verificação de dominio face ===================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
@@ -1702,12 +1706,32 @@
 			sibling.parentElement.insertBefore(skipLink, sibling);
 		}());
 	</script>
-	<!--
-The IP2Location Country Blocker is using IP2Location LITE geolocation database. Please visit http://lite.ip2location.com for more information.
--->
-	<!-- <noscript><img height="1" width="1" style="display: none;"
-			src="https://www.facebook.com/tr?id=1489349721508777&ev=PageView&noscript=1&cd%5Bpage_title%5D=Quiz&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=10&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=sistemavideolucrativo.com%2Ftest%2F"
-			alt="facebook_pixel"></noscript> -->
+	
+
+	<!-- =========================================================pixel======================================================= -->
+	<!-- Meta Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '464120322205391');
+		fbq('track', 'AddToCart');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=464120322205391&ev=AddToCart&noscript=1" /></noscript>
+	<!-- End Meta Pixel Code -->
+	<!-- =========================================================fim pixel=================================================== -->
+
+
+
 	<link rel='stylesheet' id='e-animations-css'
 		href='./wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.6.6' media='all' />
 	<script id='rocket-browser-checker-js-after'>
